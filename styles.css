@@ -1,0 +1,84 @@
+html,body{padding:0;
+margin:0;}
+.navbar{
+    background-color: aquamarine;
+    padding:12px 14px;
+    color:white;
+}
+.navbar a{
+    margin-right: 4px;
+    color:green
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    padding:12px 14px
+}
+header{
+    min-height: 50vh;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.about{
+    margin-top: 50px;
+}
+.about .content{
+    display:flex;
+}
+.about h1{
+    text-align:left;
+    margin-left: 30px;
+
+}
+.about img{
+    max-height: 350px;
+    max-width: 350px;
+    margin-left:30px ;
+
+}
+.about p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.about button{
+    margin-left: 20px;
+    color:wheat;
+    background-color: black;
+}
+.service .container{
+    display: flex;
+}
+.service h1{
+    text-align: center;
+}
+.card{
+
+    padding:30px 20px;
+    border:solid black;
+    background-color: purple;
+    margin: 60px;
+    color:aliceblue
+}
+.project h1{
+    text-align: center;
+}
+.project .container{
+    display: flex;
+}
+.project .card{
+    padding:30px 20px;
+    color:black;
+    border: solid violet;
+    background-color: beige;
+    margin:60px
+}
+.contact h1{
+    text-align: center;
+}
+.input {
+    margin: 0px 300px;
+    padding:2px;
+    margin-bottom:50px;
+}
